@@ -1,0 +1,144 @@
+Ótimo! Com essas informações, vou criar um arquivo HTML completo para o seu site. Ele será moderno, com as seções que você mencionou, e terá o design inspirado nas cores das bandeiras dos Estados Unidos e Canadá, além de incluir referências a séries e músicas em inglês. Vou incluir o mascote também, embora a imagem precise ser gerada separadamente e referenciada no código.
+
+Aqui está o código HTML completo:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Inglês - Aprenda com Diversão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #1d3c6a; /* Azul escuro da bandeira dos EUA */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1d3c6a;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #bf0a30; /* Vermelho da bandeira dos EUA */
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('path_to_your_hero_image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content h2 {
+            color: #1d3c6a;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        footer {
+            background-color: #1d3c6a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .mascot {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mascot img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cursos de Inglês - Aprenda com Diversão</h1>
+        <p>Referências a suas séries e músicas favoritas!</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a href="#materials">Nosso Material</a>
+        <a href="#promotions">Promoções</a>
+        <a href="#products">Produtos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Aprenda Inglês com a Cultura Pop</h1>
+        <p>Transforme seu aprendizado em uma experiência divertida e envolvente.</p>
+    </section>
+
+    <section class="content" id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por ensinar inglês de forma inovadora e divertida. Nossos cursos são inspirados em séries e músicas que você ama, tornando o aprendizado algo que você vai querer fazer todos os dias!</p>
+        <div class="mascot">
+            <img src="path_to_your_mascot_image.jpg" alt="Furão mascote com boné dos EUA e camiseta do Brasil">
+        </div>
+    </section>
+
+    <section class="content" id="services">
+        <h2>Serviços</h2>
+        <p>Oferecemos aulas particulares, cursos online, e muito mais. Tudo pensado para se adaptar ao seu ritmo e estilo de vida.</p>
+    </section>
+
+    <section class="content" id="materials">
+        <h2>Nosso Material</h2>
+        <p>Explore nossos e-books e PDFs exclusivos, criados para ajudar você a melhorar seu inglês com temas interessantes e atuais.</p>
+    </section>
+
+    <section class="content" id="promotions">
+        <h2>Promoções</h2>
+        <p>Aproveite nossas promoções e descontos especiais! Fique atento às novidades.</p>
+    </section>
+
+    <section class="content" id="products">
+        <h2>Produtos</h2>
+        <p>Confira nossos produtos, desde e-books até material didático para todos os níveis de aprendizado.</p>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para saber mais sobre nossos cursos e produtos. Estamos sempre prontos para ajudar!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cursos de Inglês - Aprenda com Diversão. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+```
